@@ -1,0 +1,18 @@
+{
+  "name": "zero-push-server",
+  "version": "1.0.0",
+  "description": "Push notification backend for Zero — registers devices and broadcasts real Web Push notifications to all of them.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-vapid": "node generate-vapid-keys.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.0.0",
+    "web-push": "^3.6.7"
+  }
+}
