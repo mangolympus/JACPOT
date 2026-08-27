@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/command-centre-v3.html" }
+  ]
+}
