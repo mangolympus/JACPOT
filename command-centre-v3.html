@@ -1528,7 +1528,7 @@ const SIMPLE_MASTERS = { partners: PARTNERS_MASTER, managers: MANAGERS_MASTER, s
    push, or Object.assign) rather than replacing it, so every existing
    reference throughout the codebase keeps pointing at the right data. */
 const PERSIST_KEY = 'jacpot_data_v1';
-const PERSIST_VERSION = 1;
+const PERSIST_VERSION = 2; // bumped from 1 -- the client roster changed from demo to real data, and any browser holding an old v1 snapshot must not have it silently override the new real data baked into this file
 
 function persistAppData() {
   try {
